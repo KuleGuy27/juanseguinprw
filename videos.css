@@ -1,0 +1,17 @@
+header {background-color: #333; color: #fff; padding: 20px; text-align: center; font-size: 25pt;}
+body {font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: white; color: black; font-size: 25px;}
+.dark-mode {background-color: gray; color: white;}
+.left-button {float: left}
+.homepage-button {background-color: #06e191; color: white; padding: 16px; font-size: 20px; border: none; float: right;}
+.video-container {width: 100%; max-width: 1000px; height: auto; display: flex; align: center; display: block; margin: 0 auto;}
+.video-buttons {text-align: center;}
+.video-buttons button {margin: 0 10px;}
+h3 {text-align: center;}
+p{text-align: center;  margin: 0.2em;}
+.dropbtn {background-color: #04AA6D; color: white; padding: 16px; font-size: 20px; border: none; justify-content: right;}
+    .dropdown {float: right; display: inline-block; vertical-align: middle; position: right; z-index: 2;}
+    .dropdown-content {display: none; position: absolute; background-color: #f1f1f1; min-width: 60px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 3;}
+    .dropdown-content a {color: black; padding: 10px 16px; text-decoration: none; display: block; font-size: 26px;}  
+  .dropdown-content a:hover {background-color: #ddd;}  
+  .dropdown:hover .dropdown-content {display: block;}  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
