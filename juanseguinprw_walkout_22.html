@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuanSeguinPRW-Walkout #22</title>
+    <link rel="stylesheet" href="videos.css">
+</head>
+<body>
+    <header>    
+        <button onclick="myFunction()" class="left-button">Dark Mode</button>
+        <span class="centered-text">JuanSeguinPRW</span>
+        <div class="dropdown">
+            <button class="dropbtn">View Modes</button>
+            <div class="dropdown-content">
+              <a href="juanseguinprw_about.html">About</a>
+              <a href="index.html">Icon View</a>
+              <a href="juanseguinprw_list view.html">List View</a>
+              <a href="juanseguinprw_calendar.html">Calendar</a>
+            </div>
+        </div>  
+    </header>
+    <h3>JSHS band/cheerleading walkout #22</h3>
+    <div id="videoContainer">
+        <p align="center">
+            <iframe id="video1" width="1000" height="562.5" src="https://short.ink/3kpyy2wPs" frameborder="0" scrolling="0" allowfullscreen></iframe>
+        </p>
+    </div>
+
+    <div class="video-buttons">
+        <p align="center">
+            <button onclick="changeVideo('https://short.ink/3kpyy2wPs')">Abyss Host</button>
+            <button onclick="changeVideo('https://odysee.com/$/embed/@JSHSbandandcheerleadervideothingys:4/20240829_071837:f?r=9MFHLBRVrovngMvYExAW32CoNA5uU3UW')">Odysee Host</button>
+            </p>
+        </div>
+        
+    <div class="video-description">
+        <p>Date: 29 August 2024</p>
+        <p>This is my last year of highschool woo hoo! There was an actual pep rally today, I didn't get to see it because I went to CTC, I have CTC for my last year. Unfortunately, because of that, I won't have the chance to record the pep rallies.</p>
+    </div>
+
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+        function changeVideo(videoSrc) {
+            var videoContainer = document.getElementById('videoContainer');
+            videoContainer.innerHTML = `<p align="center"><iframe width="1000" height="562.5" src="${videoSrc}" frameborder="0" scrolling="0" allowfullscreen></iframe></p>`;
+        }
+    </script>
+</body>
+</html>
